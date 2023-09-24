@@ -1,5 +1,5 @@
 {
-  "name": "github-calendar",
+  "name": "@baiano/github-calendar",
   "version": "2.3.2",
   "description": "Embed your GitHub contributions calendar anywhere.",
   "main": "lib/index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Bloggify/github-calendar.git"
+    "url": "git+ssh://git@github.com:baiano/github-calendar.git"
   },
   "keywords": [
     "github",
@@ -37,7 +37,7 @@
   "dependencies": {
     "add-subtract-date": "^1.0.15",
     "elly": "^1.1.11",
-    "formatoid": "^1.2.4",
+    "formatoid": "^1.2.4"
   },
   "blah": {
     "example": [
@@ -138,5 +138,8 @@
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
