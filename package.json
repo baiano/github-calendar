@@ -1,6 +1,6 @@
 {
   "name": "@baiano/github-calendar",
-  "version": "2.3.2",
+  "version": "1.0.0",
   "description": "Embed your GitHub contributions calendar anywhere.",
   "main": "lib/index.js",
   "directories": {
